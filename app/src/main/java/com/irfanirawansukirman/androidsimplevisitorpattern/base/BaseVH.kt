@@ -1,4 +1,4 @@
-package com.irfanirawansukirman.androidsimpleadapterdelegate.base
+package com.irfanirawansukirman.androidsimplevisitorpattern.base
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

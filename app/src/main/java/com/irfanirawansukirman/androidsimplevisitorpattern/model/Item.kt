@@ -1,8 +1,8 @@
-package com.irfanirawansukirman.androidsimpleadapterdelegate.model
+package com.irfanirawansukirman.androidsimplevisitorpattern.model
 
-import com.irfanirawansukirman.androidsimpleadapterdelegate.R
-import com.irfanirawansukirman.androidsimpleadapterdelegate.util.ViewHolderTypeFactory
-import com.irfanirawansukirman.androidsimpleadapterdelegate.util.ViewModel
+import com.irfanirawansukirman.androidsimplevisitorpattern.R
+import com.irfanirawansukirman.androidsimplevisitorpattern.util.ViewHolderTypeFactory
+import com.irfanirawansukirman.androidsimplevisitorpattern.util.ViewModel
 
 data class Item(
     val name: String,

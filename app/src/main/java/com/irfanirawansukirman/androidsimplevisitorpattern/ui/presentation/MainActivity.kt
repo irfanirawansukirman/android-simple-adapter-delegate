@@ -1,10 +1,10 @@
-package com.irfanirawansukirman.androidsimpleadapterdelegate.ui.presentation
+package com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.irfanirawansukirman.androidsimpleadapterdelegate.databinding.ActivityMainBinding
-import com.irfanirawansukirman.androidsimpleadapterdelegate.model.Item
+import com.irfanirawansukirman.androidsimplevisitorpattern.databinding.ActivityMainBinding
+import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item
 
 class MainActivity : AppCompatActivity() {
 

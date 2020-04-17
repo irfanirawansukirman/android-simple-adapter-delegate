@@ -1,12 +1,12 @@
-package com.irfanirawansukirman.androidsimpleadapterdelegate.ui.presentation
+package com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.irfanirawansukirman.androidsimpleadapterdelegate.base.BaseVH
-import com.irfanirawansukirman.androidsimpleadapterdelegate.model.Item
-import com.irfanirawansukirman.androidsimpleadapterdelegate.util.ViewHolderTypeFactory
-import com.irfanirawansukirman.androidsimpleadapterdelegate.util.ViewHolderTypeFactoryImp
+import com.irfanirawansukirman.androidsimplevisitorpattern.base.BaseVH
+import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item
+import com.irfanirawansukirman.androidsimplevisitorpattern.util.ViewHolderTypeFactory
+import com.irfanirawansukirman.androidsimplevisitorpattern.util.ViewHolderTypeFactoryImp
 
 class MainAdapter : RecyclerView.Adapter<BaseVH<Item>>() {
 

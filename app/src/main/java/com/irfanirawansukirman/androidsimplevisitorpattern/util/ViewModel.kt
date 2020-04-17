@@ -1,4 +1,4 @@
-package com.irfanirawansukirman.androidsimpleadapterdelegate.util
+package com.irfanirawansukirman.androidsimplevisitorpattern.util
 
 interface ViewModel {
     fun type(viewHolderTypeFactory: ViewHolderTypeFactory): Int

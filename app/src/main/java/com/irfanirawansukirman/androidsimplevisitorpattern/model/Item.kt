@@ -6,8 +6,9 @@ import com.irfanirawansukirman.androidsimplevisitorpattern.util.ViewModel
 
 data class Item(
     val name: String,
-    val type: String
-): ViewModel {
+    val type: String,
+    val data: String
+) : ViewModel {
     override fun type(viewHolderTypeFactory: ViewHolderTypeFactory): Int {
         return viewHolderTypeFactory.type(this)
     }
@@ -16,9 +17,9 @@ data class Item(
         const val PRIMARY = "Dog"
         const val SECONDARY = "Car"
         const val TERTIARY = "Mouse"
-        const val PRIMARY_VIEW = R.layout.item_dog
-        const val SECONDARY_VIEW = R.layout.item_car
-        const val TERTIARY_VIEW = R.layout.item_mouse
+        const val PRIMARY_VIEW = R.layout.item_banner_wrapper
+        const val SECONDARY_VIEW = R.layout.item_category
+        const val TERTIARY_VIEW = R.layout.item_promo
     }
 
 }

@@ -8,20 +8,20 @@ import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item.Companion.
 import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item.Companion.SECONDARY
 import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item.Companion.SECONDARY_VIEW
 import com.irfanirawansukirman.androidsimplevisitorpattern.model.Item.Companion.TERTIARY_VIEW
-import com.irfanirawansukirman.androidsimplevisitorpattern.ui.viewholder.CarVH
-import com.irfanirawansukirman.androidsimplevisitorpattern.ui.viewholder.DogVH
-import com.irfanirawansukirman.androidsimplevisitorpattern.ui.viewholder.MouseVH
+import com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation.main.banner.MainBannerVH
+import com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation.main.category.MainCategoryVH
+import com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation.main.promo.MainPromoVH
 
 class ViewHolderTypeFactoryImp : ViewHolderTypeFactory {
     override fun create(parent: View, viewType: Int): BaseVH<Item> {
         return when (viewType) {
-            PRIMARY_VIEW -> DogVH(
+            PRIMARY_VIEW -> MainBannerVH(
                 parent
             )
-            SECONDARY_VIEW -> CarVH(
+            SECONDARY_VIEW -> MainCategoryVH(
                 parent
             )
-            else -> MouseVH(
+            else -> MainPromoVH(
                 parent
             )
         }

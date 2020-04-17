@@ -1,4 +1,4 @@
-package com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation
+package com.irfanirawansukirman.androidsimplevisitorpattern.ui.presentation.main
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
